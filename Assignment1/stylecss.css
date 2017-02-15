@@ -4,6 +4,8 @@ body{background:#3B444B;}
 #container{background:black;padding: 1em;margin: 0 auto;max-width:960px;/* first value for top and bottom, second value for left and right*/}
 h1 a{text-decoration:none;color:white;font-family: 'Raleway', sans-serif;}
 h1{text-align:center;}
+h2{text-align:center;font-size:40px;}
+h3{font-size:20px;}
 header{font-family: 'Raleway', sans-serif;color:white; text-align:center;}
 nav ul{overflow: hidden;
     background-color: black; padding:10px; margin:5px auto;}
@@ -13,9 +15,9 @@ nav a{text-decoration:none; display:block; padding:1em; font-family: 'Raleway', 
 nav a:hover{background-color:#848482;border-radius: 5px;}
 p{color:white;font-family: 'Playfair Display', serif;}
 blockquote{color:white;font-family: 'Playfair Display', serif;margin-bottom:1em;}
-p, h3, h2{margin-bottom:1em;}/* 1em = font size of element */
-h1, h2, h3{margin-top:1.5em;}
-h2,h3{font-family: 'Raleway', sans-serif;color:white;}
+p, h4, h3, h2{margin-bottom:1em;}/* 1em = font size of element */
+h1, h2, h3, h4{margin-top:1.5em;}
+h2,h3, h4{font-family: 'Raleway', sans-serif;color:white;}
 ul{padding-left:1em; color:white;font-family: 'Playfair Display', serif;}
 footer{font-family: 'Raleway', sans-serif;color:white;}
 #Guitar img{width:100%;}
