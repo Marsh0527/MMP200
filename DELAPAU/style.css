@@ -5,7 +5,7 @@ body{background:#222; font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     
 .slideshow { 
     width: 100%; 
-    background-image: url(img/slideshow/slideshow4.jpg) ; 
+    background-image: url(img/slideshow4.jpg) ; 
     background-position: center center;
     background-size:cover;  
     height: 300px; 
