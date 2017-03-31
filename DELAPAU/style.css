@@ -1,28 +1,26 @@
 * {padding: 0; margin: 0;}
 
 body{background:#222; font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-weight: bold;margin: 0 auto;max-width:960px;}
+    font-weight: bold;margin: 0 auto;max-width:95%;}
     
 .slideshow { 
-    width: 100%; 
-    background-image: url(img/slideshow4.jpg) ; 
+    width:100%;
+    background-image: url(img/HeadingBg.jpg) ; 
     background-position: center center;
     background-size:cover;  
-    height: 300px; 
+    height:300px; 
     text-align: center; 
     color: white;}
 
 .slideshow img { 
     max-width: 480px; 
-    width: 79%; 
-    margin-top: 50px;
-    padding:1em;}
+    width: 80%; 
+    margin-top: 50px;}
 
 nav ul { 
     list-style-type: none; 
     margin:5px auto; 
     border:;
-     
     overflow: hidden; 
     background-color: #f9f9f9;
     text-align:center;}
@@ -70,21 +68,19 @@ nav li.dropdown {
     background-position: center center;
     background-attachment:fixed;
     background-size:cover;
-    width:auto;
-    height:auto;
-    max-width:100%;
+    width:100%;
     text-align: center; 
     color: white;
-    padding-bottom: 2em;
     border-style:solid;
     border-width:3px;}
 
 .lineup ul { 
-    margin: 0em;}
+    margin: 0em;padding-bottom: 2em;}
 
 .lineup li { 
-    float:inherit; 
-    list-style-type: none;}
+    list-style-type: none;
+    text-align: center; 
+    color: white;}
 
 .lineup img, .lineup_child img {width:35%; margin:10px;}
 .lineup h2, .lineup_child h2{padding:0.5em;}
@@ -94,15 +90,12 @@ nav li.dropdown {
     background-position: center center;
     background-attachment:fixed;
     background-size: cover;
-    width:auto;
-    height:auto;
-    max-width:100%; 
+    width:100%;
     text-align: center; 
     color: white;
-    padding-bottom: 2em;
     border-style:solid;
     border-width:3px;}
-.passes_container ul{margin:0em; padding:0.5em;}
+.passes_container ul{margin:0em;padding-bottom: 2em;}
 .passes_container li{list-style-type:none; float:inherit;}
 .passes_container img { width:35%;margin:15px;}
 .passes_container h2{padding:0.5em;}
@@ -112,25 +105,24 @@ nav li.dropdown {
     background-position: center center;
     background-attachment:fixed;
     background-size:cover;
-    width:auto;
-    height:auto;
-    max-width:100%;
-    color: white;
-    padding-bottom:2em;
+    width:100%;
+    color:white;
     border-style:solid;
     border-width:3px;}
 
 .travel h2{text-align:center; padding:0.5em;}
 
-.travel ul{list-style:none;}
-.travel img{
+.travel ul{list-style:none;padding-bottom:2em;}
+
+ul img{
     padding:0.3em;
     height: 30px;  
     display:inline-block; 
     margin:auto;}
 
-iframe:{
-       padding:0.1em;}
+.Map{width:60%;
+    display:block;
+    margin:auto;}
 
 footer { 
     height: 50px; 
@@ -147,13 +139,22 @@ footer p {
   
 footer img { 
     padding:0.1em;
-    height: 30px;  
-    display:inline-block; 
+      
+    display:block; 
     margin:auto;}   
 .icons { 
     list-style: none;}
 
 @media (min-width:768px){
+    .mobile {
+    display: none;}
     .slideshow img {max-width: 300px;}
+    .lineup img, .lineup_child img {width:20%; margin:5px;}
+    .travel ul{text-align:center;}
+    .passes_container img { width:20%;margin:13px;}
+    footer p {font-size:12px;}
+
+
+
 }
 
