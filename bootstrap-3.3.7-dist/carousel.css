@@ -1,6 +1,8 @@
 body {;
     color: #5a5a5a;}
 
+h1{font-family: 'Julius Sans One', sans-serif; font-size: 80px}
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
